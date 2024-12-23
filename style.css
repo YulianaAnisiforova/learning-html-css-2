@@ -37,27 +37,59 @@ img{vertical-align: top;}
 h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
 
 body {
-    padding: 30px;
+    background-color: rgb(255,240,219);
+    height: 2000px;
+}
+
+.headBox {
+    background-color: rgb(217,185,155);
+    color: rgb(112, 94, 77);
+    text-align: center;
     font-family: Arial, Helvetica, sans-serif;
+    position: sticky;
+    top: 0;
 }
 
-.list {
-    font-size: 18px;
+.title {
+    font-size: 40px;
+    line-height: 100px;
 }
 
-.list li{
-    margin: 0px 0px 10px 0px;
-    position: relative;
-    padding: 0px 0px 0px 30px;
+.menu {
+    display: flex;
+    position: sticky;
+    top: 0;
+    font-size: 30px;
+    line-height: 50px;
 }
 
-.list li:before{
-    content: '';
-    background: url('./img/yes.png') 0 0 no-repeat;
-    width: 20px;
-    height: 20px;
-    position: absolute;
-    top: 4px;
-    left: 0;
+.menuMember1 {
+    width: 25%;
+    border-radius: 5px;
+}
+
+.menuMember2 {
+    width: 25%;
+    border-radius: 5px;
+}
+
+.menuMember3 {
+    width: 25%;
+    border-radius: 5px;
+}
+
+.menuMember4 {
+    width: 25%;
+    border-radius: 5px;
+}
+
+.menu div:hover {
+    font-size: 40px;
+    background-color: rgb(238,217,196);
+    transition: 0.9s;
+}
+
+.menu div:active {
+    background-color: rgb(228,213,183);
 }
 
